@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServiceAppNameprodb": {
+            "value": "jrubiales-assignment-be-prod"
+        },
+        "appServiceAppNameprodf": {
+            "value": "jrubiales-assignment-fe-prod"
+        },
+        "appServicePlanNameprod": {
+            "value": "jrubiales-assignment-prod"
+        },
+        "storageAccountName": {
+            "value": "jrubialesprodstorage"
+        },
+        "environmentType": {
+            "value": "prod"
+        }
+    }
+}
