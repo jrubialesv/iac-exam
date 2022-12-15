@@ -1,18 +1,16 @@
+
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appServiceAppNamedevb": {
-            "value": "jrubiales-assignment-be-dev"
+        "location": {
+            "value": "westeurope"
         },
-        "appServiceAppNamedevf": {
-            "value": "jrubiales-assignment-fe-dev"
+        "storageAccountName1": {
+            "value": "jrubialesfinalexam1"
         },
-        "appServicePlanNamedev": {
-            "value": "jrubiales-assignment-dev"
-        },
-        "storageAccountName": {
-            "value": "jrubialesdevstorage"
+        "storageAccountName2": {
+            "value": "jrubialesfinalexam2"
         },
         "environmentType": {
             "value": "nonprod"

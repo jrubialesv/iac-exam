@@ -1,3 +1,7 @@
+// A "modules" folder which contains a module which deploys 2 storage accounts (using a loop). The inputs for the Storage account must be properly parametrized. "kind" and "accessTier" parameters must allow only valid values. The location default value is the same as the Resource Group.
+// Storage account names must be : <yourname>finalexam1 and <yourname>finalexam2
+
+
 param location string = resourceGroup().location
 param appServiceAppName string
 param appServicePlanName string
